@@ -22,7 +22,7 @@ const UserScreen = ({ route, user, fetchUser }) => {
           <Paragraph style={styles.detail}>Full Name: {user.username}</Paragraph>
           <Paragraph style={styles.detail}>Email: {user.email}</Paragraph>
           <Paragraph style={styles.detail}>Website: {user.website}</Paragraph>
-          <Paragraph style={styles.detail}>Company Details: Vaave Pvt Ltd</Paragraph>
+          <Paragraph style={styles.detail}>Company Details: {user.company?.name}</Paragraph>
         </Card.Content>
       </Card>
     </View>

@@ -37,3 +37,12 @@ export default combineReducers({
   post: postReducer,
   user: userReducer,
 });
+
+// reducer.js
+
+const initialState = {
+  posts: [],
+  post: {},
+  user: {},
+};
+
